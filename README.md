@@ -4,7 +4,7 @@
 It was intended to work at places without internet or a network! (e.g. the beach)
 You connect your smartphone to the Bennett-Song Network 
 and have a song library to play guitar and sing from.
-([Back to top](README.md)
+([Back to top](README.md))
 
 ## List
 - Hardware
