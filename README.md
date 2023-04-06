@@ -47,23 +47,23 @@ This is the [website](http://3.14.15.9) if your in the Bennett-Song network
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/ItsMElonhead707/Bennett-Song">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Bennett-Song</h3>
 
   <p align="center">
-    project_description
+    is a Raspberry Pi that creates a network that generates a static website with a song library.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ItsMelonhead707/Bennett-Song"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/ItsMelonhead707/Bennett-Song">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/ItsMelonhead707/Bennett-Song/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/ItsMelonhead707/Bennett-Song/issues">Request Feature</a>
   </p>
 </div>
 
