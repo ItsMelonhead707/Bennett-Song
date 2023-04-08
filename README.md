@@ -89,6 +89,7 @@ This is the [website](http://3.14.15.9) if your in the Bennett-Song network
 ## About The Project
 
 [![Bennett-Song-Screenshot][product-screenshot]](https://example.com)
+<br />
 A raspberry pi powered device for remote viewing of your song library.
 It uses [josiah-bennett/Onsong-SSG](https://github.com/josiah-bennett/Onsong-SSG) 
 to create a static site for the song-library.
@@ -106,8 +107,7 @@ and have a song library to play guitar and sing from.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow the steps below.
 
 ### Prerequisites
 
