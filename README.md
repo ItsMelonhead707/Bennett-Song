@@ -1,20 +1,3 @@
-### Bennett-Song is a Raspberry Pi that creates a network that generates a static website with a song library.
-
-## About this Project
-It was intended to work at places without internet or a network! (e.g. the beach)
-You connect your smartphone to the Bennett-Song Network 
-and have a song library to play guitar and sing from.
-([Back to top](README.md))
-
-## List
-- Hardware
-- Software
-- Other
-
-## Link
-This is the [website](http://3.14.15.9) if your in the Bennett-Song network
-
-
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
 <!--
@@ -142,26 +125,16 @@ This is an example of how to list things you need to use the software and how to
 [![Bennett-Song-Zero-Case][product-screenshot-incase-option-one]](https://github.com/ItsMelonhead707/images/bennett-song-zero-case.png)
 [![Bennett-Song-Four-Case][product-screenshot-incase-option-two]](https://github.com/ItsMelonhead707/images/bennett-song-four-case.png)
 <br />
+It was intended to work at places without internet or a network! (e.g. the beach)
+You connect your smartphone to the Bennett-Song Network 
+and have a song library to play guitar and sing from.
+This is the [website](http://3.14.15.9) if your in the Bennett-Song network
+<br />
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/ItsMelonhead707/Bennett-Song/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
@@ -194,7 +167,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - jib_03a@web.de@Appljib_03a@web.de.com
+ItsMelonhead707 - jib_03a@web.de
 
 Project Link: [https://github.com/ItsMelonhead707/Bennett-Song](https://github.com/ItsMelonhead707/Bennett-Song)
 
@@ -205,9 +178,9 @@ Project Link: [https://github.com/ItsMelonhead707/Bennett-Song](https://github.c
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [README Template](https://github.com/othneildrew/Best-README-Template)
+* [Onsong Parser](https://github.com/josiah-bennett/Onsong-Parser)
+* [Onsong SSG](https://github.com/josiah-bennett/Onsong-SSG)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
