@@ -88,7 +88,7 @@ This is the [website](http://3.14.15.9) if your in the Bennett-Song network
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Bennett-Song-Screenshot][product-screenshot]](https://example.com)
+[![Bennett-Song-Screenshot][product-screenshot]](https://github.com/ItsMelonhead707/Bennett-Song/images/screenshot.png)
 <br />
 A raspberry pi powered device for remote viewing of your song library.
 It uses [josiah-bennett/Onsong-SSG](https://github.com/josiah-bennett/Onsong-SSG) 
@@ -139,8 +139,8 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-[![Bennett-Song-Zero-Case][product-screenshot-incase-option-one]](https://example.com)
-[![Bennett-Song-Four-Case][product-screenshot-incase-option-two]](https://example.com)
+[![Bennett-Song-Zero-Case][product-screenshot-incase-option-one]](https://github.com/ItsMelonhead707/images/bennett-song-zero-case.png)
+[![Bennett-Song-Four-Case][product-screenshot-incase-option-two]](https://github.com/ItsMelonhead707/images/bennett-song-four-case.png)
 <br />
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
