@@ -56,6 +56,7 @@ This is the [website](http://3.14.15.9) if your in the Bennett-Song network
 
 
 
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -87,9 +88,10 @@ This is the [website](http://3.14.15.9) if your in the Bennett-Song network
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+[![Bennett-Song-Screenshot][product-screenshot]](https://example.com)
+This Project was intended to work at places without internet or a network! (e.g. the beach)
+You connect your smartphone to the Bennett-Song Network 
+and have a song library to play guitar and sing from.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +116,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/ItsMelonhead707/Bennett-Song.git
    ```
 3. Install NPM packages
    ```sh
@@ -148,7 +150,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/ItsMelonhead707/Bennett-Song/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,9 +186,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - jib_03a@web.de@Appljib_03a@web.de.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/ItsMelonhead707/Bennett-Song](https://github.com/ItsMelonhead707/Bennett-Song)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
