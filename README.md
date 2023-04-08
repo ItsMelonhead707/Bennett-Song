@@ -41,7 +41,7 @@ This is the [website](http://3.14.15.9) if your in the Bennett-Song network
 <h3 align="center">Bennett-Song</h3>
 
   <p align="center">
-    is a Raspberry Pi that creates a network that generates a static website with a song library.
+    A self-contained song library on your phone browser through a static site. 
     <br />
     <a href="https://github.com/ItsMelonhead707/Bennett-Song"><strong>Explore the docs »</strong></a>
     <br />
@@ -89,7 +89,13 @@ This is the [website](http://3.14.15.9) if your in the Bennett-Song network
 ## About The Project
 
 [![Bennett-Song-Screenshot][product-screenshot]](https://example.com)
-This Project was intended to work at places without internet or a network! (e.g. the beach)
+A raspberry pi powered device for remote viewing of your song library.
+It uses [josiah-bennett/Onsong-SSG](https://github.com/josiah-bennett/Onsong-SSG) 
+to create a static site for the song-library.
+It was made because we wanted to share our songs with people for a gathering without
+everyone owning the Onsong App and not being able to project the lyrics onto a screen for everyone.
+This Project was intended to work at places without internet or a pre existing network! (e.g. the beach)
+
 You connect your smartphone to the Bennett-Song Network 
 and have a song library to play guitar and sing from.
 
