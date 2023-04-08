@@ -220,5 +220,5 @@ Project Link: [https://github.com/ItsMelonhead707/Bennett-Song](https://github.c
 [license-shield]: https://img.shields.io/github/license/ItsMelonhead707/Bennett-Song.svg?style=for-the-badge
 [license-url]: https://github.com/ItsMelnhead707/Bennett-Song/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
-[product-screenshot-option-one]: images/bennett-song-zero-case.png
+[product-screenshot-incase-option-one]: images/bennett-song-zero-case.png
 [product-screenshot-incase-option-two]: images/bennett-song-four-case.png
