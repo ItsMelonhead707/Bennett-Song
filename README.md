@@ -179,6 +179,7 @@ Project Link: [https://github.com/ItsMelonhead707/Bennett-Song](https://github.c
 ## Acknowledgments
 
 * [README Template](https://github.com/othneildrew/Best-README-Template)
+* [Onsong Parser](https://github.com/jmb05/onsong-parser-go)
 * [Onsong Parser](https://github.com/josiah-bennett/Onsong-Parser)
 * [Onsong SSG](https://github.com/josiah-bennett/Onsong-SSG)
 
