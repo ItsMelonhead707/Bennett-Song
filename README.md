@@ -71,7 +71,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Bennett-Song-Screenshot][product-screenshot]](https://github.com/ItsMelonhead707/Bennett-Song/images/screenshot.png)
+[![Bennett-Song-Screenshot][product-screenshot-outcase]](https://github.com/ItsMelonhead707/Bennett-Song/images/screenshot.png)
 <br />
 A raspberry pi powered device for remote viewing of your song library.
 It uses [josiah-bennett/Onsong-SSG](https://github.com/josiah-bennett/Onsong-SSG) 
@@ -124,6 +124,19 @@ This is an example of how to list things you need to use the software and how to
 ## Usage
 [![Bennett-Song-Zero-Case][product-screenshot-incase-option-one]](https://github.com/ItsMelonhead707/images/bennett-song-zero-case.png)
 [![Bennett-Song-Four-Case][product-screenshot-incase-option-two]](https://github.com/ItsMelonhead707/images/bennett-song-four-case.png)
+<br />
+You power it on via the PiJuice button and wait for completed booting.
+Connect with your phone to the Wifi network called SongNet (or whatever you named it) via a QR-Code or just through the Settings App.
+Then use the website QR-Code to load the static site or use the ip adress (e.g.: 3.14.15.9).
+<br />
+[![Bennett-Song-Screenshot-1][product-screenshot-1]](https://github.com/ItsMelonhead707/images/screenshot-1.png)
+[![Bennett-Song-Screenshot-2][product-screenshot-2]](https://github.com/ItsMelonhead707/images/screenshot-2.png)
+<br />
+Navigate to the song you want and use the link to get to it. 
+If you need to get back to the homepage use the home button or just use the last page button existing in every browser.
+To turn it off ...
+
+
 <br />
 It was intended to work at places without internet or a network! (e.g. the beach)
 You connect your smartphone to the Bennett-Song Network 
@@ -193,6 +206,8 @@ Project Link: [https://github.com/ItsMelonhead707/Bennett-Song](https://github.c
 [issues-url]: https://github.com/ItsMelonhead707/Bennett-Song/issues
 [license-shield]: https://img.shields.io/github/license/ItsMelonhead707/Bennett-Song.svg?style=for-the-badge
 [license-url]: https://github.com/ItsMelnhead707/Bennett-Song/blob/master/LICENSE.txt
-[product-screenshot]: images/screenshot.png
+[product-screenshot-outcase]: images/bennett-song.png
 [product-screenshot-incase-option-one]: images/bennett-song-zero-case.png
 [product-screenshot-incase-option-two]: images/bennett-song-four-case.png
+[product-screenshot-1]: images/screenshot-1.png
+[product-screenshot-2]: images/screenshot-2.png
