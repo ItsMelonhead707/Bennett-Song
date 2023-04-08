@@ -139,7 +139,9 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
+[![Bennett-Song-Zero-Case][product-screenshot-incase-option-one]](https://example.com)
+[![Bennett-Song-Four-Case][product-screenshot-incase-option-two]](https://example.com)
+<br />
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
@@ -218,3 +220,5 @@ Project Link: [https://github.com/ItsMelonhead707/Bennett-Song](https://github.c
 [license-shield]: https://img.shields.io/github/license/ItsMelonhead707/Bennett-Song.svg?style=for-the-badge
 [license-url]: https://github.com/ItsMelnhead707/Bennett-Song/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
+[product-screenshot-option-one]: images/bennett-song-zero-case.png
+[product-screenshot-incase-option-two]: images/bennett-song-four-case.png
