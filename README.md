@@ -97,12 +97,12 @@ To get a local copy up and running follow the steps below.
 
 ### What you'll need
 * [Raspberry Pi](https://www.reichelt.com/raspberry-pi-zero-2-w-4x-1-ghz-512-mb-ram-wlan-bt-rasp-pi-zero2-w-p313902.html)
-* [micro SD Card] 
-* [PiJuice] (Standard or Zero)
-* [Battery] (at least 1000 mAh)
-* [heat sink]
-* [Wifi dongle] (& micro USB adapter if you are using a Raspberry Pi Zero)
-* [GPIO adapter & GPIO header] (optional)
+* [micro SD Card] (https://www.reichelt.de/microsdhc-speicherkarte-16gb-intenso-uhs-i-professional-intenso-3433470-p158171.html)
+* [PiJuice](https://uk.pi-supply.com/products/pijuice-zero) (Standard or Zero)
+* [Battery](https://uk.pi-supply.com/products/pijuice-zero-1000mah-battery) (at least 1000 mAh)
+* [heat sink](https://www.waveshare.com/zero-heatsink.htm)
+* [Wifi dongle](https://www.reichelt.de/wlan-adapter-usb-150-mbit-s-tplink-tl-wn725n-p123963.html) (& [micro USB adapter](https://www.amazon.de/-/en/KiwiBird-Connector-Compatible-Smartphones-Function-Silver/dp/B01FPZGCUQ/ref=sr_1_4?crid=2GHHTOIM4GQD5&keywords=micro+usb+auf+usb+b+adapter&qid=1679823702&sprefix=micro+usb+to+usb+b+adapt%2Caps%2C166&sr=8-4) if you are using a Raspberry Pi Zero)
+* [GPIO header](https://www.reichelt.de/raspberry-pi-gpio-header-40-polig-rm-2-54-farblich-kodiert-rpi-header-cg4-p291479.html?&trstct=pos_0&nbc=1) & [GPIO header for soldering](https://www.reichelt.de/raspberry-pi-gpio-header-40-polig-rm-2-54-farblich-kodiert-rpi-header-cg1-p239855.html) (optional)
 * some kind of case
 
 ### Prerequisites
