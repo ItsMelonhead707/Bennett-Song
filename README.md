@@ -111,7 +111,7 @@ You'll need a fresh install of raspbian on your micro SD card.
 <br />
 [RaspberryPi Website](https://www.raspberrypi.com/software/)
 
-#### Put the hardware it together
+### Put the hardware it together
 Take the Raspberry Pi and stick the heat sink to it.
 Then connect the Raspberry Piand the PiJuice via the GPIO Pins and connect the battery to the PiJuice hat
 (You might need to solder a GPIO header to the Raspberry Pi if there aren't any yet).
@@ -146,7 +146,7 @@ Connect the Wifi dongle and place it in the case.
 <br />
 You power it on via the PiJuice button and wait for completed booting.
 Connect with your phone to the Wifi network called SongNet (or whatever you named it) via a QR-Code or just through the Settings App.
-Then use the website QR-Code to load the static site or use the ip adress (e.g.: [3.14.15.9](https://3.14.15.9)).
+Then use the website QR-Code to load the static site or use the ip adress (e.g.: [3.14.15.9](https://3.14.15.9) *like our one*).
 <br />
 <br />
 [![Bennett-Song-Screenshot-1][product-screenshot-1]](https://github.com/ItsMelonhead707/images/screenshot-1.png)
@@ -155,19 +155,7 @@ Then use the website QR-Code to load the static site or use the ip adress (e.g.:
 <br />
 Navigate to the song you want and use the link to get to it. 
 If you need to get back to the homepage use the home button or just use the last page button existing in every browser.
-To turn it off ...
-
-
-<br />
-It was intended to work at places without internet or a network! (e.g. the beach)
-You connect your smartphone to the Bennett-Song Network 
-and have a song library to play guitar and sing from.
-This is the [boo](https://example.com) if your in the Bennett-Song network. 
-
-<br />
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+To turn it off just press the PiJuice button for 10 seconds and it will shutdown safely.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
