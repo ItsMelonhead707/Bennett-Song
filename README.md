@@ -74,7 +74,7 @@
 [![Bennett-Song-Screenshot][product-screenshot-outcase]](https://github.com/ItsMelonhead707/Bennett-Song/images/screenshot.png)
 <br />
 A raspberry pi powered device for remote viewing of your song library.
-It uses [josiah-bennett/Onsong-SSG](https://github.com/josiah-bennett/Onsong-SSG) 
+It uses [jmb05/onsong-parser-go](https://github.com/jmb05/onsong-parser-go) 
 to create a static site for the song-library.
 It was made because we wanted to share our songs with people for a gathering without
 everyone owning the Onsong App and not being able to project the lyrics onto a screen for everyone.
@@ -125,12 +125,15 @@ This is an example of how to list things you need to use the software and how to
 [![Bennett-Song-Zero-Case][product-screenshot-incase-option-one]](https://github.com/ItsMelonhead707/images/bennett-song-zero-case.png)
 [![Bennett-Song-Four-Case][product-screenshot-incase-option-two]](https://github.com/ItsMelonhead707/images/bennett-song-four-case.png)
 <br />
+<br />
 You power it on via the PiJuice button and wait for completed booting.
 Connect with your phone to the Wifi network called SongNet (or whatever you named it) via a QR-Code or just through the Settings App.
 Then use the website QR-Code to load the static site or use the ip adress (e.g.: 3.14.15.9).
 <br />
+<br />
 [![Bennett-Song-Screenshot-1][product-screenshot-1]](https://github.com/ItsMelonhead707/images/screenshot-1.png)
 [![Bennett-Song-Screenshot-2][product-screenshot-2]](https://github.com/ItsMelonhead707/images/screenshot-2.png)
+<br />
 <br />
 Navigate to the song you want and use the link to get to it. 
 If you need to get back to the homepage use the home button or just use the last page button existing in every browser.
@@ -192,9 +195,9 @@ Project Link: [https://github.com/ItsMelonhead707/Bennett-Song](https://github.c
 ## Acknowledgments
 
 * [README Template](https://github.com/othneildrew/Best-README-Template)
-* [Onsong Parser](https://github.com/jmb05/onsong-parser-go)
-* [Onsong Parser](https://github.com/josiah-bennett/Onsong-Parser)
-* [Onsong SSG](https://github.com/josiah-bennett/Onsong-SSG)
+* [Onsong Parser (GO)](https://github.com/jmb05/onsong-parser-go)
+* [Onsong Parser (Haskell - not used)](https://github.com/josiah-bennett/Onsong-Parser)
+* [Onsong SSG (not used)](https://github.com/josiah-bennett/Onsong-SSG)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
