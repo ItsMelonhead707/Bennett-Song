@@ -96,7 +96,7 @@ and have a song library to play guitar and sing from.
 To get a local copy up and running follow the steps below.
 
 ### What you'll need
-* [Raspberry Pi] (https://www.reichelt.com/raspberry-pi-zero-2-w-4x-1-ghz-512-mb-ram-wlan-bt-rasp-pi-zero2-w-p313902.html)
+* [Raspberry Pi](https://www.reichelt.com/raspberry-pi-zero-2-w-4x-1-ghz-512-mb-ram-wlan-bt-rasp-pi-zero2-w-p313902.html)
 * [micro SD Card] 
 * [PiJuice] (Standard or Zero)
 * [Battery] (at least 1000 mAh)
@@ -121,7 +121,7 @@ Connect the Wifi dongle and place it in the case.
 ### Installation
 
 1. Put a fresh install of raspbian on the micro SD card.
-2. Clone the repo
+2. Clone the repo :joy:
    ```sh
    git clone https://github.com/ItsMelonhead707/Bennett-Song.git
    ```
@@ -162,9 +162,7 @@ To turn it off ...
 It was intended to work at places without internet or a network! (e.g. the beach)
 You connect your smartphone to the Bennett-Song Network 
 and have a song library to play guitar and sing from.
-This is the 
-[website](https://3.14.15.9)
- if your in the Bennett-Song network: 
+This is the [website](https://example.com)if your in the Bennett-Song network: 
 
 <br />
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
