@@ -147,7 +147,7 @@ To turn it off ...
 It was intended to work at places without internet or a network! (e.g. the beach)
 You connect your smartphone to the Bennett-Song Network 
 and have a song library to play guitar and sing from.
-This is the [website](http://3.14.15.9) if your in the Bennett-Song network
+This is the [website](https://3.14.15.9) if your in the Bennett-Song network
 <br />
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
