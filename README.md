@@ -146,7 +146,7 @@ Connect the Wifi dongle and place it in the case.
 <br />
 You power it on via the PiJuice button and wait for completed booting.
 Connect with your phone to the Wifi network called SongNet (or whatever you named it) via a QR-Code or just through the Settings App.
-Then use the website QR-Code to load the static site or use the ip adress (e.g.: 3.14.15.9).
+Then use the website QR-Code to load the static site or use the ip adress (e.g.: [3.14.15.9](https://3.14.15.9)).
 <br />
 <br />
 [![Bennett-Song-Screenshot-1][product-screenshot-1]](https://github.com/ItsMelonhead707/images/screenshot-1.png)
@@ -162,7 +162,7 @@ To turn it off ...
 It was intended to work at places without internet or a network! (e.g. the beach)
 You connect your smartphone to the Bennett-Song Network 
 and have a song library to play guitar and sing from.
-This is the [boo](https://example.com) if your in the Bennett-Song network: 
+This is the [boo](https://example.com) if your in the Bennett-Song network. 
 
 <br />
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
