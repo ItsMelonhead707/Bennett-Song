@@ -95,17 +95,31 @@ and have a song library to play guitar and sing from.
 
 To get a local copy up and running follow the steps below.
 
+### What you'll need
+* Raspberry Pi 
+* micro SD Card 
+* PiJuice (Standard or Zero)
+* Battery (at least 1000 mAh)
+* heat sink
+* Wifi dongle (& micro USB adapter if you are using a Raspberry Pi Zero)
+* GPIO adapter & GPIO header (optional)
+* some kind of case
+
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+You'll need a fresh install of raspbian on your micro SD card.
+[RaspberryPi Website](https://www.raspberrypi.com/Software)
+
+#### Put the hardware it together
+Take the Raspberry Pi and stick the heat sink to it.
+Then connect the Raspberry Piand the PiJuice via the GPIO Pins and connect the battery to the PiJuice hat
+(You might need to solder a GPIO header to the Raspberry Pi if there aren't any yet).
+Connect the Wifi dongle and place it in the case.
+
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Put a fresh install of raspbian on the micro SD card.
 2. Clone the repo
    ```sh
    git clone https://github.com/ItsMelonhead707/Bennett-Song.git
