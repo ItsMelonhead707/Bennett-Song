@@ -107,9 +107,8 @@ To get a local copy up and running follow the steps below.
 
 ### Prerequisites
 
-You'll need a fresh install of raspbian on your micro SD card.
-<br />
-[RaspberryPi Website](https://www.raspberrypi.com/software/)
+You'll need a fresh install of raspbian on your micro SD card
+([RaspberryPi Website](https://www.raspberrypi.com/software/)).
 
 ### Put the hardware it together
 Take the Raspberry Pi and stick the heat sink to it.
