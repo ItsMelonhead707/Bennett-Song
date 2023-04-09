@@ -124,22 +124,31 @@ Connect the Wifi dongle and place it in the case.
    sudo apt install pijuice-base
    ```
    or 
+   <br />
    ```sh
    sudo apt install pijuice-gui
    ```
-   if you want a gui
-2. Clone the repo :joy:
+   if you want a gui (but we will be using the base version)
+   <br />
+2. Open the PiJuice Software and configure the PiJuice hat
    ```sh
-   git clone https://github.com/ItsMelonhead707/Bennett-Song.git
+   pijuice_cli
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
+   * Navigate to the *"status"* section and check if the battery is connected properly and charging.
+   * Navigate to *"LEDs"*, leave the *"D1"* LED as is at *"CHARGE STATUS"* but change the *"D2"* LED to *"USER LED"* we are going to use it with a python programm later. Dont forget to *"Apply Settings"*.
+   * Navigate to *"Battery Profile"* and under *"Profilw"*change it to the correct battery type (depending on your battery). If you have one from PiSupply otherwise change to custom and instert the values. Dont forget to *"Apply Settings"*. (if you have set this using the DIP switches on the PiJuice you can skip this step)
+   * Navigate to *"Firmware"* and check if the Firmware is up to date and if not update it.
+   * Navigate to *"System Task"* and enable '"System Task"* as well as *"Min charge"* and set that value to 10%. Dont forget to *"Apply Settings"*.
+   * Navigate to *"System Events"*  and set *"Low charge"* to USER_FUNC1
+   * Navigate to *"User Scripts"* and set *"USER_FUNC_1"* to *"pi/home/shutdown.py"* (or the place and name you want of your shutdown script; we will make it shortly)
+   
+   
+3. Set up RTC 
+4. write shutdwon script`
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
+5. write LED scripts
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
