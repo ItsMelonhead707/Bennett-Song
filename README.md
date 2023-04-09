@@ -144,8 +144,8 @@ Connect the Wifi dongle and place it in the case.
    
    
 3. Set up RTC 
-4. write shutdwon script`
-   ```js
+4. write shutdwon script `shutdown.py`
+   ```py
    const API_KEY = 'ENTER YOUR API';
    ```
 5. write LED scripts
