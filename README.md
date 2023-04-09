@@ -97,11 +97,11 @@ To get a local copy up and running follow the steps below.
 
 ### What you'll need
 * [Raspberry Pi](https://www.reichelt.com/raspberry-pi-zero-2-w-4x-1-ghz-512-mb-ram-wlan-bt-rasp-pi-zero2-w-p313902.html)
-* [micro SD Card] (https://www.reichelt.de/microsdhc-speicherkarte-16gb-intenso-uhs-i-professional-intenso-3433470-p158171.html)
+* [micro SD Card](https://www.reichelt.de/microsdhc-speicherkarte-16gb-intenso-uhs-i-professional-intenso-3433470-p158171.html)
 * [PiJuice](https://uk.pi-supply.com/products/pijuice-zero) (Standard or Zero)
 * [Battery](https://uk.pi-supply.com/products/pijuice-zero-1000mah-battery) (at least 1000 mAh)
 * [heat sink](https://www.waveshare.com/zero-heatsink.htm)
-* [Wifi dongle](https://www.reichelt.de/wlan-adapter-usb-150-mbit-s-tplink-tl-wn725n-p123963.html) (& [micro USB adapter](https://www.amazon.de/-/en/KiwiBird-Connector-Compatible-Smartphones-Function-Silver/dp/B01FPZGCUQ/ref=sr_1_4?crid=2GHHTOIM4GQD5&keywords=micro+usb+auf+usb+b+adapter&qid=1679823702&sprefix=micro+usb+to+usb+b+adapt%2Caps%2C166&sr=8-4) if you are using a Raspberry Pi Zero)
+* [Wifi dongle](https://www.reichelt.de/wlan-adapter-usb-150-mbit-s-tplink-tl-wn725n-p123963.html) (and a [micro USB adapter](https://www.amazon.de/-/en/KiwiBird-Connector-Compatible-Smartphones-Function-Silver/dp/B01FPZGCUQ/ref=sr_1_4?crid=2GHHTOIM4GQD5&keywords=micro+usb+auf+usb+b+adapter&qid=1679823702&sprefix=micro+usb+to+usb+b+adapt%2Caps%2C166&sr=8-4) if you are using a Raspberry Pi Zero)
 * [GPIO header](https://www.reichelt.de/raspberry-pi-gpio-header-40-polig-rm-2-54-farblich-kodiert-rpi-header-cg4-p291479.html?&trstct=pos_0&nbc=1) & [GPIO header for soldering](https://www.reichelt.de/raspberry-pi-gpio-header-40-polig-rm-2-54-farblich-kodiert-rpi-header-cg1-p239855.html) (optional)
 * some kind of case
 
@@ -110,7 +110,7 @@ To get a local copy up and running follow the steps below.
 You'll need a fresh install of raspbian on your micro SD card
 ([RaspberryPi Website](https://www.raspberrypi.com/software/)).
 
-### Put the hardware it together
+### Put the hardware together
 Take the Raspberry Pi and stick the heat sink to it.
 Then connect the Raspberry Piand the PiJuice via the GPIO Pins and connect the battery to the PiJuice hat
 (You might need to solder a GPIO header to the Raspberry Pi if there aren't any yet).
@@ -119,7 +119,15 @@ Connect the Wifi dongle and place it in the case.
 
 ### Installation
 
-1. Put a fresh install of raspbian on the micro SD card.
+1. Install the PiJuice software
+   ```sh
+   sudo apt install pijuice-base
+   ```
+   or 
+   ```sh
+   sudo apt install pijuice-gui
+   ```
+   if you want a gui
 2. Clone the repo :joy:
    ```sh
    git clone https://github.com/ItsMelonhead707/Bennett-Song.git
@@ -145,7 +153,7 @@ Connect the Wifi dongle and place it in the case.
 <br />
 You power it on via the PiJuice button and wait for completed booting.
 Connect with your phone to the Wifi network called SongNet (or whatever you named it) via a QR-Code or just through the Settings App.
-Then use the website QR-Code to load the static site or use the ip adress (e.g.: [3.14.15.9](https://3.14.15.9) *like our one*).
+Then use the website QR-Code to load the static site or use the ip adress (e.g.: [3.14.15.9](https://3.14.15.9) *like our one* :joy:).
 <br />
 <br />
 [![Bennett-Song-Screenshot-1][product-screenshot-1]](https://github.com/ItsMelonhead707/images/screenshot-1.png)
