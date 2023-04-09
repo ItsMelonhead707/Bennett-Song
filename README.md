@@ -140,7 +140,7 @@ Connect the Wifi dongle and place it in the case.
    * Navigate to **"Firmware"** and check if the Firmware is up to date and if not update it.
    * Navigate to **"System Task"** and enable **"System Task"** as well as **"Min charge"** and set that value to 10%. Dont forget to **"Apply Settings"**.
    * Navigate to **"System Events"**  and set **"Low charge"** to **"USER_FUNC1"**. Dont forget to **"Apply Settings"**.
-   * Navigate to **"User Scripts"** and set **"USER_FUNC_1"** to **"pi/home/shutdown.py"** (or the place and name you want of your shutdown script; we will make it shortly)
+   * Navigate to **"User Scripts"** and set **"USER_FUNC_1"** to pi/home/shutdown.py` (or the place and name you want of your shutdown script; we will make it shortly)
    
    
 3. Set up RTC 
