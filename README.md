@@ -18,6 +18,9 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
@@ -122,6 +125,7 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+<br />
 [![Bennett-Song-Zero-Case][product-screenshot-incase-option-one]](https://github.com/ItsMelonhead707/images/bennett-song-zero-case.png)
 [![Bennett-Song-Four-Case][product-screenshot-incase-option-two]](https://github.com/ItsMelonhead707/images/bennett-song-four-case.png)
 <br />
@@ -205,6 +209,12 @@ Project Link: [https://github.com/ItsMelonhead707/Bennett-Song](https://github.c
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/ItsMelonhead707/Bennett-Song.svg?style=for-the-badge
+[contributors-url]: https://github.com/ItsMelonhead707/Bennett-Song/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ItsMelonhead707/Bennett-Song.svg?style=for-the-badge
+[forks-url]: https://github.com/ItsMelonhead707/Bennett-Song/graphs/forks
+[stars-shield]: https://img.shields.io/github/stars/ItsMelonhead707/Bennett-Song.svg?style=for-the-badge
+[stars-url]: https://github.com/ItsMelonhead707/Bennett-Song/graphs/stars
 [issues-shield]: https://img.shields.io/github/issues/ItsMelonhead707/Bennett-Song.svg?style=for-the-badge
 [issues-url]: https://github.com/ItsMelonhead707/Bennett-Song/issues
 [license-shield]: https://img.shields.io/github/license/ItsMelonhead707/Bennett-Song.svg?style=for-the-badge
