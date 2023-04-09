@@ -96,19 +96,20 @@ and have a song library to play guitar and sing from.
 To get a local copy up and running follow the steps below.
 
 ### What you'll need
-* Raspberry Pi 
-* micro SD Card 
-* PiJuice (Standard or Zero)
-* Battery (at least 1000 mAh)
-* heat sink
-* Wifi dongle (& micro USB adapter if you are using a Raspberry Pi Zero)
-* GPIO adapter & GPIO header (optional)
+* [Raspberry Pi] (https://www.reichelt.com/raspberry-pi-zero-2-w-4x-1-ghz-512-mb-ram-wlan-bt-rasp-pi-zero2-w-p313902.html)
+* [micro SD Card] 
+* [PiJuice] (Standard or Zero)
+* [Battery] (at least 1000 mAh)
+* [heat sink]
+* [Wifi dongle] (& micro USB adapter if you are using a Raspberry Pi Zero)
+* [GPIO adapter & GPIO header] (optional)
 * some kind of case
 
 ### Prerequisites
 
 You'll need a fresh install of raspbian on your micro SD card.
-[RaspberryPi Website](https://www.raspberrypi.com/Software)
+<br />
+[RaspberryPi Website](https://www.raspberrypi.com/software/)
 
 #### Put the hardware it together
 Take the Raspberry Pi and stick the heat sink to it.
@@ -161,7 +162,10 @@ To turn it off ...
 It was intended to work at places without internet or a network! (e.g. the beach)
 You connect your smartphone to the Bennett-Song Network 
 and have a song library to play guitar and sing from.
-This is the [website](https://3.14.15.9) if your in the Bennett-Song network
+This is the 
+[website](https://3.14.15.9)
+ if your in the Bennett-Song network: 
+
 <br />
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
