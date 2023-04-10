@@ -193,7 +193,10 @@ Connect the Wifi dongle and place it in the case.
    ```
    <br />
    ##### Sync RTC time at boot
-   When the Raspberry Pi shutsdown and then reboots you must copy the RTC time back to the system clock at boot and you can do this in `/etc/rc.local`   with `sudo hwclock -s`.
+   
+   When the Raspberry Pi shutsdown and then reboots you must copy the RTC time
+   back to the system clock at boot and you can 
+   do this in `/etc/rc.local` with `sudo hwclock -s`.
    <br />
    Note: This assumes that your PiJuice has sufficient power from the battery to keep the simulated RTC running in the PiJuice microcontroller while the Pi is shut down.
 4. create the shutdown script `shutdown.py`
