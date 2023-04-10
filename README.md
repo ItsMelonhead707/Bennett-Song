@@ -145,7 +145,51 @@ Connect the Wifi dongle and place it in the case.
    * Navigate to **"User Scripts"** and set **"USER_FUNC_1"** to `pi/home/shutdown.py` (or the place and name you want of your shutdown script; we will make it shortly)
    
    
-3. Set up RTC 
+3. Setting the System Clock & RTC (RealTimeClock)
+   * check the PiJuice RTC is connected via ID EEPROM
+   ```sh
+   i2cdetect -y 1
+   ```
+   where you will see **"UU"** at adress 68
+   ```sh
+   pi@rpi-stretch-full:~ $ i2cdetect -y 1
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+   00:          -- -- -- -- -- -- -- -- -- -- -- -- --
+   10: -- -- -- -- 14 -- -- -- -- -- -- -- -- -- -- --
+   20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+   30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+   40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+   50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+   60: -- -- -- -- -- -- -- -- UU -- -- -- -- -- -- --
+   70: -- -- -- -- -- -- -- --                         
+   pi@rpi-stretch-full:~ $
+   ```
+   If your ID EEPROM address is set to 0x52 (Which you will need to change if stacking another HAT) then you will need to manually load the driver in the `/boot/config.txt` by adding the following line:
+   
+   ```sh 
+   dtoverlay=i2c-rtc,ds1339
+   ```
+   you need to reboot your Raspberry Pi after changing the config file
+   ```sh
+   sudo reboot
+   ```
+   * setting the system Clock & RTC
+   There are two ways in which you can set your system time and date providing that you have set the timezone in Raspbian; automatically using timesync or manually in the command line. If you have an internet connection then the time will automatically be synched after boot and this will also sync with the RTC time.
+   <br />
+   Manually you can set the time with the `date` command from the command line`   ```sh
+   sudo date -s '2018-10-29 12:30:46' 
+   ```   After setting the date and time you must then copy the system time to the RTC with the command:
+   ```sh
+   sudo hwclock -w
+   ```   You can check this with:
+   ```sh
+   sudo hwclock -r   
+   ```
+   <br /<
+   * Sync RTC time at boot
+   When the Raspberry Pi shutsdown and then reboots you must copy the RTC time back to the system clock at boot and you can do this in `/etc/rc.local`   with `sudo hwclock -s`.
+   <br />
+   Note: This assumes that your PiJuice has sufficient power from the battery to keep the simulated RTC running in the PiJuice microcontroller while the Pi is shut down.
 4. create the shutdown script `shutdown.py`
    ```
    cd
