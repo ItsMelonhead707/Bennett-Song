@@ -135,7 +135,8 @@ Connect the Wifi dongle and place it in the case.
    ```sh
    pijuice_cli
    ```
-   * Navigate to the **"status"** section and check if the battery is connected properly and charging.
+   * Navigate to the **"Status"** section and check if the battery is connected properly and charging.
+   * Navigate to the **"Buttons"** and **"SW1"** section and change **"LONG_PRESS1"** to **"USER_FUNC1"** **"5000"**.
    * Navigate to **"LEDs"**, leave the **"D1"** LED as is at **"CHARGE STATUS"** but change the **"D2"** LED to **"USER LED"** we are going to use it with a python programm later. Dont forget to **""Apply Settings"**.
    * Navigate to **"Battery Profile"** and under **"Profile"** change it to the correct battery type (depending on your battery). If you have one from PiSupply otherwise change to custom and instert the values. Dont forget to **"Apply Settings"**. (if you have set this using the DIP switches on the PiJuice you can skip this step)
    * Navigate to **"Firmware"** and check if the Firmware is up to date and if not update it.
