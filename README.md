@@ -143,6 +143,14 @@ Connect the Wifi dongle and place it in the case.
    * Navigate to **"System Task"** and enable **"System Task"** as well as **"Min charge"** and set that value to 10%. Dont forget to **"Apply Settings"**.
    * Navigate to **"System Events"**  and set **"Low charge"** to **"USER_FUNC1"**. Dont forget to **"Apply Settings"**.
    * Navigate to **"User Scripts"** and set **"USER_FUNC_1"** to `pi/home/shutdown.py` (or the place and name you want of your shutdown script; we will make it shortly)
+   or
+   ```sh
+   cd 
+   curl https://raw.githubusercontent.com/PiSupply/PiJuice/master/Software/Source/Utilities/pijuice_util.py > pijuice_util.py  
+   ```
+   ```sh
+   
+   ```
    
    
 3. Setting the System Clock & RTC (RealTimeClock)
@@ -181,16 +189,19 @@ Connect the Wifi dongle and place it in the case.
    
    There are two ways in which you can set your system time and date providing that you have set the timezone in Raspbian; automatically using timesync or manually in the command line. If you have an internet connection then the time will automatically be synched after boot and this will also sync with the RTC time.
    <br />
-   Manually you can set the time with the `date` command from the command line`   
+   Manually you can set the time with the `date` command from the command line`
+   
    ```sh
    sudo date -s '2018-10-29 12:30:46' 
    ```
-      After setting the date and time you must then copy the system time to the RTC with the command:
+   
+   After setting the date and time you must then copy the system time to the RTC with the command:
    
    ```sh
    sudo hwclock -w
    ```
-      You can check this with:
+   
+   You can check this with:
    
    ```sh
    sudo hwclock -r   
