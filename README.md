@@ -145,7 +145,12 @@ Connect the Wifi dongle and place it in the case.
    
    
 3. Set up RTC 
-4. write shutdown script `shutdown.py`
+4. create the shutdown script `shutdown.py`
+   ```
+   cd
+   sudo nano shutdown.py
+   ```
+   now write:
    ```py
    #!/usr/bin/python3
 
@@ -167,7 +172,29 @@ Connect the Wifi dongle and place it in the case.
 
 
    ```
-5. write LED scripts
+5. create a LED folder
+   ```sh
+   cd
+   mkdir "LED"
+   ```
+6. create the cpu temperature LED script `cpu-temperature.py`
+   ```sh
+   cd LED
+   sudo nano cpu-temperature.py
+   ```
+   now write
+   ```py
+   #!/usr/bin/python3
+   from pijuice import PiJuice # Import pijuice module
+   from gpiozero import CPUTemperature
+   pijuice = PiJuice(1, 0x14) # Instantiate PiJuice interface object
+   print(pijuice.status.GetStatus()) # Read PiJuice status.
+
+   cpu = CPUTemperature()
+   print(cpu) # Read Raspberry Pi CPU Temperature
+   ```
+   
+9. create LED scripts
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
