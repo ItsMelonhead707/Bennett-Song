@@ -98,7 +98,7 @@ To get a local copy up and running follow the steps below.
 ### What you'll need
 * [Raspberry Pi Zero 2 w](https://www.reichelt.com/raspberry-pi-zero-2-w-4x-1-ghz-512-mb-ram-wlan-bt-rasp-pi-zero2-w-p313902.html) (or any other one)
 * [micro SD Card](https://www.reichelt.de/microsdhc-speicherkarte-16gb-intenso-uhs-i-professional-intenso-3433470-p158171.html)
-* [PiJuice Zero](https://uk.pi-supply.com/products/pijuice-zero) (or the Standard)
+* [PiJuice Zero](https://uk.pi-supply.com/products/pijuice-zero) (or the [Standard](https://uk.pi-supply.com/collections/pijuice/products/pijuice-standard))
 * [Battery](https://uk.pi-supply.com/products/pijuice-zero-1000mah-battery) (at least 1000 mAh)
 * [heat sink](https://www.waveshare.com/zero-heatsink.htm)
 * [Wifi dongle](https://www.reichelt.de/wlan-adapter-usb-150-mbit-s-tplink-tl-wn725n-p123963.html) 
