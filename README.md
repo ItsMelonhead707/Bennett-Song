@@ -145,7 +145,7 @@ Connect the Wifi dongle and place it in the case.
    
    
 3. Set up RTC 
-4. write shutdwon script `shutdown.py`
+4. write shutdown script `shutdown.py`
    ```py
    #!/usr/bin/python3
 
