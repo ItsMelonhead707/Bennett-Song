@@ -177,22 +177,22 @@ Connect the Wifi dongle and place it in the case.
    ##### setting the system Clock & RTC
    There are two ways in which you can set your system time and date providing that you have set the timezone in Raspbian; automatically using timesync or manually in the command line. If you have an internet connection then the time will automatically be synched after boot and this will also sync with the RTC time.
    <br />
-   Manually you can set the time with the `date` command from the command line`   <br />
+   Manually you can set the time with the `date` command from the command line`   
    ```sh
    sudo date -s '2018-10-29 12:30:46' 
    ```
-   <br />   After setting the date and time you must then copy the system time to the RTC with the command:
-   < br />
+      After setting the date and time you must then copy the system time to the RTC with the command:
+   
    ```sh
    sudo hwclock -w
    ```
-   <br />   You can check this with:
-   <br />
+      You can check this with:
+   
    ```sh
    sudo hwclock -r   
    ```
    <br />
-   * Sync RTC time at boot
+   ##### Sync RTC time at boot
    When the Raspberry Pi shutsdown and then reboots you must copy the RTC time back to the system clock at boot and you can do this in `/etc/rc.local`   with `sudo hwclock -s`.
    <br />
    Note: This assumes that your PiJuice has sufficient power from the battery to keep the simulated RTC running in the PiJuice microcontroller while the Pi is shut down.
