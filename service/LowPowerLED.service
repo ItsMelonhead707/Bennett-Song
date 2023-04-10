@@ -1,0 +1,10 @@
+ [Unit]
+ Description= When power level reaches 15% or below the LED starts blinking purple and>
+ After=multi-user.target
+
+ [Service]
+ Type=idle
+ ExecStart=/usr/bin/python /home/pi/LED/lowpowerled.py
+
+ [Install]
+ WantedBy=multi-user.target

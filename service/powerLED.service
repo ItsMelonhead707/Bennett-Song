@@ -1,0 +1,10 @@
+ [Unit]
+ Description=Power Led turns Blue on Charge Level 90%
+ After=multi-user.target
+
+ [Service]
+ Type=idle
+ ExecStart=/usr/bin/python /home/pi/LED/powerled.py
+
+ [Install]
+ WantedBy=multi-user.target
