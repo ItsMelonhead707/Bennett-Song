@@ -147,7 +147,25 @@ Connect the Wifi dongle and place it in the case.
 3. Set up RTC 
 4. write shutdwon script `shutdown.py`
    ```py
-   const API_KEY = 'ENTER YOUR API';
+   #!/usr/bin/python3
+
+   from pijuice import PiJuice
+   import os
+   pijuice = PiJuice(1, 0x14)
+
+   #Remove power to PiJuice MCU IO pins
+   pijuice.power.SetSystemPowerSwitch(0)
+
+   #Set wakeup
+   pijuice.power.SetWakeUpOnCharge('DISABLED')
+
+   #Remove 5V power to RPI after 60 seconds
+   pijuice.power.SetPowerOff(60)
+
+   #Shut down the RPI
+   os.system("sudo halt")
+
+
    ```
 5. write LED scripts
 
