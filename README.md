@@ -146,7 +146,9 @@ Connect the Wifi dongle and place it in the case.
    
    
 3. Setting the System Clock & RTC (RealTimeClock)
+
    ##### check the PiJuice RTC is connected via ID EEPROM
+
    ```sh
    i2cdetect -y 1
    ```
@@ -174,7 +176,9 @@ Connect the Wifi dongle and place it in the case.
    ```sh
    sudo reboot
    ```
+   
    ##### setting the system Clock & RTC
+   
    There are two ways in which you can set your system time and date providing that you have set the timezone in Raspbian; automatically using timesync or manually in the command line. If you have an internet connection then the time will automatically be synched after boot and this will also sync with the RTC time.
    <br />
    Manually you can set the time with the `date` command from the command line`   
@@ -191,12 +195,13 @@ Connect the Wifi dongle and place it in the case.
    ```sh
    sudo hwclock -r   
    ```
-   <br />
+   
    ##### Sync RTC time at boot
    
    When the Raspberry Pi shutsdown and then reboots you must copy the RTC time
    back to the system clock at boot and you can 
    do this in `/etc/rc.local` with `sudo hwclock -s`.
+   <br />
    <br />
    Note: This assumes that your PiJuice has sufficient power from the battery to keep the simulated RTC running in the PiJuice microcontroller while the Pi is shut down.
 4. create the shutdown script `shutdown.py`
