@@ -268,7 +268,7 @@ Then use the website QR-Code to load the static site or use the ip adress (e.g.:
 <br />
 Navigate to the song you want and use the link to get to it. 
 If you need to get back to the homepage use the home button or just use the last page button existing in every browser.
-To turn it off just press the PiJuice button for 10 seconds and it will shutdown safely.
+To turn it off just press the PiJuice button for 5 seconds and it will shutdown safely.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
