@@ -55,8 +55,8 @@
       <ul>
 	    <li><a href="#what-you'll-need">What you'll need</a></li>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
 		<li><a href="#put-the-hardware-together">Put the hardware together</a></li>
+        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -218,33 +218,13 @@ Connect the Wifi dongle and place it in the case.
    <br />
    <br />
    Note: This assumes that your PiJuice has sufficient power from the battery to keep the simulated RTC running in the PiJuice microcontroller while the Pi is shut down.
-4. create the shutdown script `shutdown.py`
-   ```
+
+4. download the shutdown script
+   ```sh
    cd
-   sudo nano shutdown.py
+   curl https://github.com/ItsMelonhead707/Bennett-Song/tree/main/shutdown.py > shutdown.py
    ```
-   now write:
-   ```py
-   #!/usr/bin/python3
 
-   from pijuice import PiJuice
-   import os
-   pijuice = PiJuice(1, 0x14)
-
-   #Remove power to PiJuice MCU IO pins
-   pijuice.power.SetSystemPowerSwitch(0)
-
-   #Set wakeup
-   pijuice.power.SetWakeUpOnCharge('DISABLED')
-
-   #Remove 5V power to RPI after 60 seconds
-   pijuice.power.SetPowerOff(60)
-
-   #Shut down the RPI
-   os.system("sudo halt")
-
-
-   ```
 5. create a LED folder & download the LED files
    ```sh
    mkdir LED
@@ -264,15 +244,8 @@ Connect the Wifi dongle and place it in the case.
    curl https://github.com/ItsMelonhead707/Bennett-Song/tree/main/service/powerLED.service > powerLED.service
    curl https://github.com/ItsMelonhead707/Bennett-Song/tree/main/service/temperatureLED.service > temperatureLED.service
    ```
-   
 
-7. download the shutdown script
-   ```sh
-   cd
-   curl https://github.com/ItsMelonhead707/Bennett-Song/tree/main/shutdown.py > shutdown.py
-   ```
-
-8. now its jmb05 turn to edit the README.md file
+7. now its jmb05 turn to edit the README.md file
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
