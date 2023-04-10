@@ -49,19 +49,17 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
+	    <li><a href="#what-you'll-need">What you'll need</a></li>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+		<li><a href="#put-the-hardware-together">Put the hardware together</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -131,7 +129,8 @@ Connect the Wifi dongle and place it in the case.
    ```
    if you want a gui (but we will be using the base version)
    <br />
-2. Open the PiJuice Software and configure the PiJuice hat
+2. Configure the PiJuice hat
+   Downlad the pijuice-settings.js & the pijuice_util.py files
    ```sh
    cd 
    curl https://raw.githubusercontent.com/PiSupply/PiJuice/master/Software/Source/Utilities/pijuice_util.py > pijuice_util.py  
@@ -139,6 +138,7 @@ Connect the Wifi dongle and place it in the case.
    ```sh
    curl https://raw.githubusercontent.com/ItsMelonhead707/Bennett-Song/main/pijuice-settings.js > pijuice-settings.js
    ```
+   and execute them to set up some of the PiJuice settings
    ```sh
    python3 pijuice_util.py --load < pijuice-settings.js
    ```
@@ -245,29 +245,34 @@ Connect the Wifi dongle and place it in the case.
 
 
    ```
-5. create a LED folder
+5. create a LED folder & download the LED files
    ```sh
-   cd
-   mkdir "LED"
+   mkdir LED
    ```
-6. create the cpu temperature LED script `cpu-temperature.py`
    ```sh
-   cd LED
-   sudo nano cpu-temperature.py
+   curl https://github.com/ItsMelonhead707/Bennett-Song/tree/main/LED/LED_README > LED_README
+   curl https://github.com/ItsMelonhead707/Bennett-Song/tree/main/LED/cpu-temperature.py > cpu-temperature.py
+   curl https://github.com/ItsMelonhead707/Bennett-Song/tree/main/LED/lowpowerled.py > lowpowerled.py
+   curl https://github.com/ItsMelonhead707/Bennett-Song/tree/main/LED/party-led-pijuice.py > party-led-pijuice.py
+   curl https://github.com/ItsMelonhead707/Bennett-Song/tree/main/LED/powerled.py > powerled.py
+   curl https://github.com/ItsMelonhead707/Bennett-Song/tree/main/LED/templed.py > templed.py
    ```
-   now write
-   ```py
-   #!/usr/bin/python3
-   from pijuice import PiJuice # Import pijuice module
-   from gpiozero import CPUTemperature
-   pijuice = PiJuice(1, 0x14) # Instantiate PiJuice interface object
-   print(pijuice.status.GetStatus()) # Read PiJuice status.
-
-   cpu = CPUTemperature()
-   print(cpu) # Read Raspberry Pi CPU Temperature
+6. download the LED service files, that enable the LED scripts at startup
+   ```sh
+   cd /usr/lib/systemd/system/
+   curl https://github.com/ItsMelonhead707/Bennett-Song/tree/main/service/LowPowerLED.service > LowPowerLED.service
+   curl https://github.com/ItsMelonhead707/Bennett-Song/tree/main/service/powerLED.service > powerLED.service
+   curl https://github.com/ItsMelonhead707/Bennett-Song/tree/main/service/temperatureLED.service > temperatureLED.service
    ```
    
-9. create LED scripts
+
+7. download the shutdown script
+   ```sh
+   cd
+   curl https://github.com/ItsMelonhead707/Bennett-Song/tree/main/shutdown.py > shutdown.py
+   ```
+
+8. now its jmb05 turn to edit the README.md file
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
