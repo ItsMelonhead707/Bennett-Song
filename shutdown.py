@@ -4,6 +4,9 @@ from pijuice import PiJuice
 import os
 pijuice = PiJuice(1, 0x14)
 
+#Set LED to White
+print(pijuice.status.SetLedState('D2', [200, 255, 255]))
+
 #Remove power to PiJuice MCU IO pins
 pijuice.power.SetSystemPowerSwitch(0)
 
