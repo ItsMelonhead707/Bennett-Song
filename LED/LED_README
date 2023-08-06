@@ -16,6 +16,9 @@ Red-Purple blinking     = Powerlevel below 15%
 -> RPI will automatically shutdown at Powerlevel 10%
 (pijuice_cli -> PiJuice interface)
 
+White										 = Shutdown script was executed
+(shutdown.py)
+
 (party-led-pijuice.py   -> colorful flashing LED light on PiJuice)
 (cpu-temperature.py     -> displays PiJuice information and cpu temperature)
 
